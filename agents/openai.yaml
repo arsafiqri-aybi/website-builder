@@ -1,0 +1,14 @@
+interface:
+  display_name: Website Builder
+  short_description: Bangun website dengan riset UX dan psikologi indra
+  default_prompt: Gunakan $website-builder untuk membangun website yang sesuai tujuan
+    pengguna, nyaman, aksesibel, cepat, dan teruji.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
